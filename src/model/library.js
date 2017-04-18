@@ -9,4 +9,4 @@ let librarySchema = new Schema({
 
 export default librarySchema;
 
-module.exports = mongoose.model('Library',librarySchema);
+module.exports = mongoose.model('libraries',librarySchema);

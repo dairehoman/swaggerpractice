@@ -20,5 +20,5 @@ var librarySchema = new Schema({
 exports.default = librarySchema;
 
 
-module.exports = _mongoose2.default.model('Library', librarySchema);
+module.exports = _mongoose2.default.model('libraries', librarySchema);
 //# sourceMappingURL=library.js.map

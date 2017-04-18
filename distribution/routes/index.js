@@ -12,10 +12,6 @@ var _config = require('../config');
 
 var _config2 = _interopRequireDefault(_config);
 
-var _middleware = require('../middleware');
-
-var _middleware2 = _interopRequireDefault(_middleware);
-
 var _library = require('../controller/library');
 
 var _library2 = _interopRequireDefault(_library);
@@ -29,7 +25,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var router = (0, _express2.default)();
 
 (0, _db2.default)(function (db) {
-    router.use((0, _middleware2.default)({ config: _config2.default, db: db }));
     router.use('/library', (0, _library2.default)({ config: _config2.default, db: db }));
 });
 
