@@ -16,13 +16,25 @@
     "type": "git",
     "url": "git+https://github.com/CoderYoyoS/Daire_api.git"
   },
+  "eslintConfig": {
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "env": {
+      "node": true
+    },
+    "rules": {
+      "no-console": 0,
+      "no-unused-vars": 1
+    }
+  },
+
   "author": "Daire Homan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/CoderYoyoS/Daire_api/issues"
   },
   "homepage": "https://github.com/CoderYoyoS/Daire_api#readme",
-
   "dependencies": {
     "babel-preset-es2015": "^6.24.0",
     "body-parser": "^1.17.1",

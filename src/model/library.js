@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 let Schema = mongoose.Schema;
 
 let librarySchema = new Schema({
+    name:String,
     library: String
 });
 

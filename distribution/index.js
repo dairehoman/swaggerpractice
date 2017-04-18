@@ -16,13 +16,13 @@ var _bodyParser = require('body-parser');
 
 var _bodyParser2 = _interopRequireDefault(_bodyParser);
 
-var _routes = require('./routes');
-
-var _routes2 = _interopRequireDefault(_routes);
-
 var _config = require('./config');
 
 var _config2 = _interopRequireDefault(_config);
+
+var _routes = require('./routes');
+
+var _routes2 = _interopRequireDefault(_routes);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 

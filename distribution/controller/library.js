@@ -12,11 +12,7 @@ var _library2 = _interopRequireDefault(_library);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = function (_ref) {
-    var config = _ref.config,
-        db = _ref.db;
-
-
+exports.default = function () {
     var api = (0, _express.Router)();
 
     api.get('/pin', function (req, res) {
@@ -31,14 +27,12 @@ exports.default = function (_ref) {
             json = JSON.parse(json);
 
             var message = '';
-            for (var i = 0; i < 4; i++) {
-                message += json[0]['pinrecovery'][i] + '\n';
+            for (var i = 0; i < 1; i++) {
+                message += json[0]['pin'][i] + '\n';
             }
-
             res.send(message);
         });
     });
-
     return api;
 };
 //# sourceMappingURL=library.js.map

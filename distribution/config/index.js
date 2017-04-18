@@ -14,7 +14,7 @@ Object.defineProperty(exports, "__esModule", {
 // 'mongodb://coderyoyo:admin@ds159050.mlab.com:59050/chatbotdb'
 exports.default = {
     "port": 5000,
-    "mongoUrl": 'mongodb://coderyoyo:admin@ds159050.mlab.com:59050/chatbotdb',
+    "mongoUrl": 'mongodb://localhost:27017/library',
     "bodyLimit": '100kb'
 };
 //# sourceMappingURL=index.js.map
